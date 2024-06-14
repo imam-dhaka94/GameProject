@@ -78,4 +78,25 @@ input{
 .finalResult{
     text-align: center;
 }
+/* responsive design  */
+@media screen and (max-width: 384px) {
+
+    form{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    input{
+        width: 120px;
+        margin-top: 9px;
+    }
+}
+@media screen and (max-width: 378px) {
+
+    input{
+        margin-top: 9px;
+    }
+}
+
+
 
