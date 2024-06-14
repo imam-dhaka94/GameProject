@@ -20,7 +20,6 @@ form.addEventListener('submit', (event)=>{
     event.preventDefault();
     checkResult(userInput.value);
     attemt++;
-    
     if(attemt==5){
         userInput.disabled = true;
         checkButton.disabled = true; 
