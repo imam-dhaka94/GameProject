@@ -33,7 +33,7 @@ form.addEventListener('submit', (event)=>{
     };
    
 
-
+    userInput.value= "";
     
     
 });
